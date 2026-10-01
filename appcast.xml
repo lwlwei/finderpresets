@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FinderPresets</title>
+        <item>
+            <title>1.4</title>
+            <pubDate>Wed, 30 Sep 2026 20:32:05 -0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://CHANGE-ME.github.io/finderpresets/FinderPresets-1.4.dmg" length="2584172" type="application/octet-stream" sparkle:edSignature="ne06ADza+CTB51WOYtK4dcNVTJiyH9y/IvEzIKC9a+WEcgGnp9+gDVtAtZGyGVy2KcgfME/MM/Exbelicc5SBQ=="/>
+        </item>
+    </channel>
+</rss>

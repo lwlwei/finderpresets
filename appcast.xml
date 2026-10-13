@@ -3,18 +3,18 @@
     <channel>
         <title>FinderPresets</title>
         <item>
-            <title>1.22.3</title>
-            <pubDate>Tue, 13 Oct 2026 11:59:24 -0700</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>1.22.3</sparkle:shortVersionString>
+            <title>1.22.4</title>
+            <pubDate>Tue, 13 Oct 2026 12:59:29 -0700</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.22.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets-1.22.3.dmg" length="4055166" type="application/octet-stream" sparkle:edSignature="MuEBuruoSFN2Y61kJUC4MMwSz12ehau5r+vJVfCPdvqJRb5/7K5Ckn7FuklSKVv2OZFGA6qdwtjewd14IQE8Ag=="/>
+            <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets-1.22.4.dmg" length="4066384" type="application/octet-stream" sparkle:edSignature="agPhXDiqJW0Fov5qyKdcnpbA1CuveD8jLhk5QSZjDaSAExMciS0sG9M19ZYcE0I6RH9MzwcG3HO/NA9lR2y+Dg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets39-38.delta" sparkle:deltaFrom="38" length="296878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HW4KeI3vsBMlaSukrgpAbCaGxEDHnZiAfQF4T1yCDlJymjvTlHOXrd1YkLBDK/pZbc11QkB8NMk968laRr2ICQ=="/>
-                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets39-37.delta" sparkle:deltaFrom="37" length="296614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9zHRgDDLo7DGFuRXDMUSdgKKWf4dTQBaF0CXJfFBiRscrsAG9LwmK4PMxj5f9IJWEq7tQhQvnZmxi9/peUeqBg=="/>
-                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets39-36.delta" sparkle:deltaFrom="36" length="300638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5CKQnZz8lUI2cQq9H8KYRSbzvp/tWyoFggAXp2KMj9PNF9eZocc3ciB2dwQvSQmhv7FKd4wN60W5ireed7i3DA=="/>
-                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets39-35.delta" sparkle:deltaFrom="35" length="425038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gJ894GvbdAYKjvggAn3Wqwnon8Uk8DBVKnFNZkmdL0i/p0VpTTixYGpTYmkYtF3Di/H5lqVLudQ41o6+4q7EAA=="/>
-                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.3/FinderPresets39-34.delta" sparkle:deltaFrom="34" length="433306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rGZTve303CsML5+ZfX4pvjlMJGyUAJKQOSwIHFfKoiXm1cb1Ki8BojElLDTZBj/EKQAyWq60Wh9Od6U/TeFMBw=="/>
+                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets40-39.delta" sparkle:deltaFrom="39" length="334146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zfj/uMzfJbLiKrXy6Rxyqv026obhGmtqRGy2wOn5qhhi0Jn/CrEFYkEilKOQe5Z4nVnS6BqsV5xaHk/Op9RdAQ=="/>
+                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets40-38.delta" sparkle:deltaFrom="38" length="384886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dE1foJ3oV/gfxw4Nz6NNbIBra5X8kSgb5KX8a40IEaSkBj2RYdkE5rI3OG3NRg3j9IYyTLYMNmTA6YrlkWfZDg=="/>
+                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets40-37.delta" sparkle:deltaFrom="37" length="387546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nQSZSdOUnS/uQ8GNe5ttQO/6y1rmEJhl2zXTTWcG6Lcyg2O/dPa5C/VZ9IGNHoiRxVIZKFEArMDU2YlHNHmZAw=="/>
+                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets40-36.delta" sparkle:deltaFrom="36" length="392862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JdCh7CKwkQIthHXO1WL44IH1qhk8/H+tPYdXeI7lRzvHmy3H8W77/Zf56qEBzHnvalfQvsry1TmqMYYPnW3TCw=="/>
+                <enclosure url="https://github.com/lwlwei/finderpresets/releases/download/v1.22.4/FinderPresets40-35.delta" sparkle:deltaFrom="35" length="479378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BRbLM4c8MNwbqE4kZ3iJc3GXBCtY1Q0sOZyrvSa/H/RzBH+WolUoeWw5iFPU+8NYaJaW3VVGNL/tVbRZLZm7DQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

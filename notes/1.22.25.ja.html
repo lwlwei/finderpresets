@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>修正</h3>
+<ul>
+<li><strong>サイドバー上部のタイトル（「サイドバー」の文字）を押さえても、バー全体をドラッグできるようになりました。</strong> ヘッダーの空いた部分を押さえたときと同じです。以前は、英語などタイトルが長い言語では、タイトルの文字が押下を受け止めてしまい、何も動きませんでした。</li>
+</ul>
+<h3>同期</h3>
+<ul>
+<li><strong>同期の状況を確認できます</strong>：「設定」<span class="k">▸</span>「一般」<span class="k">▸</span>「データとバックアップ」に、この Mac の名前、バックアップフォルダへの最後の保存がどの Mac からいつ行われたか、別の Mac の変更が待っているか（<strong>確認…</strong>ボタン付き）、iCloud がまだ取り込み中のファイル数が表示されます。（Mac がバックアップに自分の名前を書くのは、このバージョンを実行してからです。）</li>
+</ul>
+<h3>ショートカットと Siri</h3>
+<ul>
+<li>新しいアクション<strong>コマンドパレットを開く</strong>と<strong>テンプレートからフォルダを作成</strong>を追加しました。後者は、指定したフォルダ（指定がなければ Finder の最前面のフォルダ）にフォルダテンプレートを作成します（Mac App Store 版は「プリセットフォルダを作成」をテンプレートを選んだ状態で開きます）。</li>
+</ul>
+<h3>使い方のヒント</h3>
+<ul>
+<li>新しいヒント：よく使うプリセットが先頭に並ぶこと、同期の状況の見方、更新の前後で新機能を読める場所。ショートカットのヒントにも新しいアクションを載せました。</li>
+</ul>
+<h3>コマンドパレット</h3>
+<ul>
+<li>検索では、ヒントがコマンド、プリセット、フォルダの後に並ぶようになりました。</li>
+</ul>
+<h3>内部の改善</h3>
+<ul>
+<li>リリース手順で、実際のマウスによる確認が増えました：サイドバーのポップアップページからフォルダをドラッグして出す、メニューバーアイコンにフォルダをドロップする。また、各言語とダークモードで全ウィンドウの画像を撮るスクリプトを追加し、リリース前に目で確認できるようにしました。</li>
+<li>開発用ビルドは専用のデータフォルダを使い、インストール済みアプリのプリセットやサイドバーに触れなくなりました。</li>
+</ul>
+</body>
+</html>

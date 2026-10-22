@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>修复</h3>
+<ul>
+<li><strong>按住侧边栏顶部的标题（“侧边栏”几个字）现在也能拖动整个侧边栏</strong>，和按住标题栏空白处一样。以前在英文等标题更长的语言下，标题文字会吃掉这次按压，什么都拖不动。</li>
+</ul>
+<h3>同步</h3>
+<ul>
+<li><strong>看看同步进行得怎么样</strong>：“设置”<span class="k">▸</span>“通用”<span class="k">▸</span>“数据与备份”现在会显示这台 Mac 的名字、备份文件夹里最近一次保存来自哪台 Mac 以及时间、是否有另一台 Mac 的更改在等待（带<strong>查看…</strong>按钮），以及 iCloud 还有几个文件在下载。（一台 Mac 运行这个版本之后，才会在备份里写上自己的名字。）</li>
+</ul>
+<h3>快捷指令与 Siri</h3>
+<ul>
+<li>新增<strong>打开命令面板</strong>和<strong>用模板创建文件夹</strong>两个操作。后者会在你指定的文件夹里创建你的某套文件夹模板，没指定就用 Finder 最前面的文件夹（Mac App Store 版会打开“创建预设文件夹”并选好模板）。</li>
+</ul>
+<h3>使用技巧</h3>
+<ul>
+<li>新增几条技巧：最常用的预设排在最前面、怎么看同步进行得怎么样、在哪里读更新前后的新功能。“快捷指令”那条也列出了新增的操作。</li>
+</ul>
+<h3>命令面板</h3>
+<ul>
+<li>搜索时，技巧现在排在命令、预设和文件夹之后，而不是排在它们前面。</li>
+</ul>
+<h3>内部改进</h3>
+<ul>
+<li>打包流程现在还会用真实的鼠标检查：把文件夹从侧边栏的弹出页拖出去、把文件夹放到菜单栏图标上；另外有个脚本会用每种语言和深色模式把每个窗口都拍下来，发布前先看一遍。</li>
+<li>开发版本现在使用自己的数据文件夹，运行它不会碰已安装 App 的预设和侧边栏。</li>
+</ul>
+</body>
+</html>

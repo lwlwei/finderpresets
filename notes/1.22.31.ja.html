@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>サイドバー</h3>
+<ul>
+<li><strong>ファイルの一時置き場。</strong> ファイルをサイドバーにドラッグすると、コピーではなく、実際の場所へのリンクとして一時置き場で待機します。ドラッグして出すと実際のファイルが渡され、ファイルが移動されてもリンクは追従します。Option キーを押しながらドロップすると、代わりにコピーが一時置き場に保存されます。（以前は、バーにファイルをドロップすると、そのファイルがあるフォルダが追加されました。フォルダを固定するには、フォルダ自体をドロップしてください。）</li>
+<li><strong>バーにドロップしたフォルダは、置いた場所に入ります</strong>：行の上半分か下半分、カテゴリの最初か最後、バーの末尾です。どこに入るかは線で分かります。</li>
+<li><strong>修正：サブリスト形式のカテゴリにフォルダをドロップすると、そのカテゴリに入るようになりました。</strong> 前のバージョンでは動作していませんでした。</li>
+<li><strong>バーの横のリスト</strong>に、バーの行と同じ右クリックメニューが付き、フォルダをドラッグして並べ替えられ、矢印キー、Return、Esc で操作でき、同じ名前のフォルダは場所も表示されます。</li>
+<li>「最近」と「開いているフォルダ」のオプション（表示、折りたたむ、非表示、リストか 1 行か）は、それぞれの横に移りました。「＋」メニューには、すべてのグループのスイッチだけが残ります。非表示にしたリストは、バーの下の小さな入口から戻せます。</li>
+<li><strong>Finder で開いているフォルダが Finder に追従します</strong>：バーが見えている間は、マウスを重ねなくても更新されます。</li>
+</ul>
+<h3>アプリグループ</h3>
+<ul>
+<li><strong>ディスプレイごとにステージがあります</strong>：「ステージマネージャから追加」と「ステージから新しいグループを作成」は、各ディスプレイのステージを一覧にします。新機能：ステージからワンクリックでグループを作成でき、グループのアプリのウィンドウ位置を保存して、起動時に戻せます（直接ダウンロード版、アクセシビリティの許可が必要）。</li>
+<li>システムが受け付けなかったショートカットは一覧に表示され、各アプリは前のアプリが前面に来るのを待ってから起動します。</li>
+</ul>
+<h3>内部の改善</h3>
+<ul>
+<li>リリース前のテストで、ドロップしたフォルダの位置、一時置き場と Option のコピー、サブリスト形式のカテゴリへのドロップも確認します。画面確認に「アプリグループ」ウィンドウが加わり、テストスクリプトは Mac が忙しいと待つようになりました。</li>
+</ul>
+</body>
+</html>

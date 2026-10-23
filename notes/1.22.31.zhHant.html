@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>側邊欄</h3>
+<ul>
+<li><strong>檔案暫存區。</strong> 把檔案拖到側邊欄上，它們會作為連結暫存在欄上的暫存區，指向檔案真實所在的位置，而不是副本：拖出去，交出的就是真實檔案；檔案被移動後，連結也會跟著走。拖入時按住 Option，則在暫存區里儲存一份副本。（以前把一個檔案拖到欄上，會把它所在的資料夾加進去；現在要固定資料夾，請直接拖資料夾本身。）</li>
+<li><strong>拖到欄上的資料夾會放在你放下的位置</strong>：放在一行的上半或下半、放在一個分類的最前或最後、或放在欄的末尾，並且有一條線顯示會放到哪裡。</li>
+<li><strong>修復：把資料夾拖到二級選單形式的分類上，現在會放進這個分類。</strong> 上一個版本里這個不起作用。</li>
+<li><strong>欄旁邊的列表</strong>有了和欄里的行一樣的右鍵選單，裡面的資料夾可以拖移重新排序，可以用方向鍵、回車和 Esc 操作，同名資料夾會顯示各自的位置。</li>
+<li>“最近”和“已開啟的資料夾”的選項（顯示、收起、隱藏、作為列表或一行）挪到了它們各自旁邊；“＋”選單里只保留“所有組別”的開關；某個列表被隱藏後，欄底部有一個小入口可以把它找回來。</li>
+<li><strong>Finder 裡已開啟的資料夾現在會跟著 Finder 變化</strong>：欄在眼前時，不用把滑鼠移上去也會更新。</li>
+</ul>
+<h3>應用組</h3>
+<ul>
+<li><strong>每個顯示器有各自的舞台</strong>：“從台前調度添加”和“用一個舞台新增應用組”會列出每個顯示器的舞台。新增：一次點按就能用一個舞台新增應用組；還可以儲存應用組里各應用的視窗位置，並在啓動時放回去（直接下載版，需要“輔助使用”權限）。</li>
+<li>系統不接受的快速鍵會在列表裡標出來；每個應用會等上一個到了前面再啓動。</li>
+</ul>
+<h3>內部改進</h3>
+<ul>
+<li>發佈前的測試現在還會檢查拖入的資料夾落在哪裡、暫存區和按 Option 的副本、以及拖到二級選單形式分類上的資料夾；截圖檢查加入了“應用組”視窗；測試腳本會等 Mac 不忙再開始。</li>
+</ul>
+</body>
+</html>

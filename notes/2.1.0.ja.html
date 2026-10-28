@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>名前とキーワード</h3>
+<ul>
+<li><strong>名前を尋ねるプリセット用の新しい入力パネル。</strong> 入力に合わせて一致するフォルダが並びます（最もよく一致するものが先頭、どの <code>[x]</code> フォルダにあるかも表示）。↑↓・クリック・Return で選べ、前回開いたフォルダから始まるので、同じプロジェクトを開き直すのは Return 1 回です。2 つ目の「どれを開く？」の確認はなくなり、値のない名前は「フォルダが見つかりません」ではなく先に尋ねます。</li>
+<li><strong><code>[x]</code> では最もよく一致するものを優先。</strong> ray と入力すると、前の <code>[x]</code> フォルダの gray house ではなく、後ろの <code>[x]</code> フォルダの ray gunn が開きます。「キーワードが複数のフォルダに一致したらどれか尋ねる」は <code>[x]</code> のパスとサイドバーの行でも使えます。</li>
+<li><strong>コマンドパレットでプリセット名とキーワード</strong>（「clients ray」など）を入力すると、その場でフォルダを選べます。<span class="k">⌘</span>Return で Finder に表示、<span class="k">⌥</span>Return でパスをコピーします。</li>
+<li><strong>より寛容なマッチング。</strong> アクセント・全角文字・簡体字/繁体字を区別せず、中国語のフォルダ名はピンイン（「kehu」や「kh」）でも探せます。</li>
+<li><strong>サイドバーの行とプリセットエディタに、キーワードが一致したフォルダの数を表示</strong>（「≡ 3」から選択、固定値の下に「3 件のフォルダに一致：…」）。尋ねるプリセットはメニューバーで名前の後ろに「…」が付きます。</li>
+</ul>
+<h3>安定性</h3>
+<ul>
+<li><strong>応答しないディスクを待たなくなりました。</strong> クイックジャンプはすぐ開き、エディタのフォルダプレビューはバックグラウンドで読み込み、プリセットを開くときに応答しないフォルダはアプリを止めずにスキップして知らせます。</li>
+<li><strong>壊れたレコード 1 件で全体を失わなくなりました。</strong> プリセット・サイドバー・フォルダテンプレート・アプリグループを 1 件ずつ読み込み、読めるものは通常どおり読み込み、元のデータは別に残して知らせます。</li>
+<li><strong>設定の検索で設定名から見つかるように</strong>（「プリセットを開く」「サイドバー」のページは、これまで 2〜3 個のタイトルでしか見つかりませんでした）。</li>
+</ul>
+</body>
+</html>

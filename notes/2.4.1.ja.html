@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>使いやすく</h3>
+<ul>
+<li><strong>フォルダの構成が違っても元ファイルが見つかります（直接ダウンロード版）。</strong> 「設定 <span class="k">▸</span> ショートカット <span class="k">▸</span> プロキシと元ファイルのフォルダ」のペアで「同じ場所にないときは名前で検索」をオンにすると、同じ場所に元ファイルがないとき、元のフォルダ全体から同じ名前のファイルを探し、見つかったものをすべて表示します（最大 20 件）。初期状態はオフです。</li>
+<li><strong>末尾が違う名前と、警告。</strong>「無視する末尾」（例：_proxy）を入力すると、clip_proxy.mp4 から clip.mov が見つかります。ペアに問題があれば、フォルダが見つからない・同じフォルダが選ばれている・一方がもう一方の中にある・プロキシフォルダが重複している、のように知らせます。</li>
+<li><strong>元ファイルを呼び出す方法が増えました：</strong>「元ファイルを Finder で表示」はコマンドパレット、右クリックのサービスメニュー、finderpresets://original リンクからも使えます。</li>
+<li><strong>サイドバーを「開く」「保存」ウィンドウに寄せられます（直接ダウンロード版）。</strong>「設定 <span class="k">▸</span> サイドバー」で「『開く』『保存』ウィンドウが出たら、その横にサイドバーをポップアップ」をオンにしたうえで「ウィンドウに寄せて一緒に動かす」をオンにすると、サイドバーがウィンドウと同じ高さですぐ横に付き、移動やサイズ変更にも追従します。初期状態はオフで、設定の同期にも含まれます。</li>
+</ul>
+<h3>より安定</h3>
+<ul>
+<li><strong>元ファイルの検索が速く、安定しました。</strong> リンクされたフォルダや大文字小文字の違いも一致し、何個ドロップしても元のフォルダは 1 回だけ読み込み、応答しないディスクは数秒で知らせます（アプリが待ち続けません）。Finder の選択項目を取得できないときは権限の確認を促し、一部のファイルにしか元ファイルがなかったときもそのことを知らせます。</li>
+<li><strong>より静かに、VoiceOver でも使いやすく：</strong>ウィンドウを開いている間だけ動くいくつかのタイマーを、Mac がまとめて起こせるようにしました。サイドバーの「元ファイル」の行は VoiceOver で操作できます。</li>
+</ul>
+</body>
+</html>

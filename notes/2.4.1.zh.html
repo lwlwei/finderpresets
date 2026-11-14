@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>更好用</h3>
+<ul>
+<li><strong>两个文件夹的目录结构不同，也能找到源文件（直接下载版）。</strong> 在“设置 <span class="k">▸</span> 快捷键 <span class="k">▸</span> 代理文件夹和源文件夹”里，给某一对勾选“不在同一位置时按名字搜索”：源文件不在相同位置时，会在整个源文件夹里找同名文件，找到的都会显示（最多 20 个）。默认关闭。</li>
+<li><strong>结尾不同的名字，以及警告。</strong> 填上“忽略结尾”（例如 _proxy），clip_proxy.mp4 就能找到 clip.mov。每一对文件夹现在会指出问题：找不到文件夹、选成同一个、一个套在另一个里，或代理文件夹用了两次。</li>
+<li><strong>更多方式查找源文件：</strong>“在 Finder 中显示源文件”现在也在命令面板、右键“服务”菜单里，还可以用 finderpresets://original 链接。</li>
+<li><strong>侧边栏可以贴在“打开/存储”窗口旁边（直接下载版）。</strong> 在“设置 <span class="k">▸</span> 侧边栏”里，开启“出现打开或存储窗口时，在它旁边弹出侧边栏”后，再勾选“贴在窗口旁边并跟随移动”：侧边栏与窗口等高、紧贴在旁，并随它移动和缩放。默认关闭，并会随设置同步。</li>
+</ul>
+<h3>更稳定</h3>
+<ul>
+<li><strong>查找源文件更快、更稳。</strong> 符号链接的文件夹和大小写不同也能匹配；不管一次拖入多少文件，源文件夹只读一遍；硬盘没有响应时几秒后就会提示，不再让 App 一直等。读不到 Finder 的选中项时，会提示检查权限；只有部分文件找到源文件时，也会告诉你。</li>
+<li><strong>更安静，也更方便 VoiceOver：</strong>几个窗口打开时才运行的计时器，现在让 Mac 合并它们的唤醒；侧边栏的“源文件”一行可以用 VoiceOver 激活。</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>修復</h3>
+<ul>
+<li><strong>權限已經開了，資料夾也不再被拆成獨立視窗。</strong> 開著“將所有資料夾作為標籤頁合併到一個 Finder 視窗”時，只要“系統事件”恰好沒在執行，FinderPresets 就會誤報沒有權限控制“系統事件”，即使權限其實是開著的。現在會先把它啟動起來。</li>
+<li><strong>權限清單也會檢查“系統事件”。</strong> 資料夾以標籤頁開啟時，設定裡的“自動化”一項和選單列圖示上的角標，在 FinderPresets 被拒絕控制“系統事件”時也會提醒。</li>
+<li><strong>二級選單與它的那一行對齊。</strong> “二級選單”（最近、在 Finder 中開啟、分類）的列表以前點在行裡越靠下，彈出得就越靠下；現在與那一行對齊。</li>
+</ul>
+<h3>“更多功能”裡的改進（直接下載版）</h3>
+<ul>
+<li><strong>“歸檔資料夾…”能處理互相嵌套的資料夾。</strong> 預設組裡同時列出一個資料夾和它裡面的資料夾時，只歸檔外層，裡層隨之帶走，不會再整個歸檔被還原。</li>
+<li><strong>拖入檔案不再留下空資料夾。</strong> 為拖入的檔案建好子資料夾後，如果該檔案被跳過或沒能移動，這個子資料夾會被刪掉。</li>
+</ul>
+</body>
+</html>

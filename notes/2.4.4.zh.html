@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>修复</h3>
+<ul>
+<li><strong>权限已经开了，文件夹也不再被拆成独立窗口。</strong> 开着“将所有文件夹作为标签页合并到一个 Finder 窗口”时，只要“系统事件”恰好没在运行，FinderPresets 就会误报没有权限控制“系统事件”，即使权限其实是开着的。现在会先把它启动起来。</li>
+<li><strong>权限清单也会检查“系统事件”。</strong> 文件夹以标签页打开时，设置里的“自动化”一项和菜单栏图标上的角标，在 FinderPresets 被拒绝控制“系统事件”时也会提醒。</li>
+<li><strong>二级菜单与它的那一行对齐。</strong> “二级菜单”（最近、在 Finder 中打开、分类）的列表以前点在行里越靠下，弹出得就越靠下；现在与那一行对齐。</li>
+</ul>
+<h3>“更多功能”里的改进（直接下载版）</h3>
+<ul>
+<li><strong>“归档文件夹…”能处理互相嵌套的文件夹。</strong> 预设里同时列出一个文件夹和它里面的文件夹时，只归档外层，里层随之带走，不会再整个归档被撤销。</li>
+<li><strong>拖入文件不再留下空文件夹。</strong> 为拖入的文件建好子文件夹后，如果该文件被跳过或没能移动，这个子文件夹会被删掉。</li>
+</ul>
+</body>
+</html>

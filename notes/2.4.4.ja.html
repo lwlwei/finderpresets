@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>修正</h3>
+<ul>
+<li><strong>権限がすでにオンでも、フォルダが別々のウィンドウで開かなくなりました。</strong>「すべてのフォルダを 1 つの Finder ウィンドウのタブで開く」がオンのとき、システムイベントがたまたま起動していないと、権限があるのにシステムイベントを操作できないと誤って判断することがありました。今後は先にシステムイベントを起動します。</li>
+<li><strong>権限のチェックリストがシステムイベントも確認します。</strong> フォルダをタブで開く設定のとき、設定の「オートメーション」の項目とメニューバーアイコンのバッジは、システムイベントの操作が拒否されている場合にも知らせます。</li>
+<li><strong>サブリストが該当の行と同じ高さで開きます。</strong>「サブリスト」（最近、Finder で開いているフォルダ、カテゴリ）のリストは、行の下のほうをクリックするほど低い位置に開いていました。今後は行に揃います。</li>
+</ul>
+<h3>「追加機能」の改善（直接ダウンロード版）</h3>
+<ul>
+<li><strong>「フォルダをアーカイブ…」が入れ子のフォルダに対応。</strong> プリセットにフォルダとその中のフォルダが両方あるときは、外側だけをアーカイブし、内側も一緒に移動します。アーカイブ全体が取り消されることはありません。</li>
+<li><strong>ドロップしたあとに空のフォルダが残りません。</strong> ドロップしたファイルのために作ったサブフォルダは、そのファイルがスキップされたり移動できなかったりした場合に削除されます。</li>
+</ul>
+</body>
+</html>

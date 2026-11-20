@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>新增</h3>
+<ul>
+<li><strong>新建文件夹时可以填写多个名称。</strong> 在“新建预设文件夹”里，模板现在可以写任意多个方括号名称，例如 <code>[?客户]</code>、<code>[x1]</code>、<code>[项目]</code>。每次创建时，每个名称只问你一次，填写的内容会替换所有同名的位置；不同名称分别询问。<code>[x]</code> 和 <code>[date]</code> 之类的日期部分不会被询问。</li>
+<li><strong>真的叫 <code>[x]</code> 的文件夹。</strong> 预设路径里的 <code>[x]</code> 仍然表示“这里的任意文件夹”。如果有文件夹真的叫 <code>[x]</code>，请加引号写成 <code>"[x]"</code>。路径输入框旁新增了一个按钮，可在两种写法之间切换；“插入会变化的部分”菜单里也多了对应的一项。</li>
+</ul>
+<h3>须知</h3>
+<ul>
+<li>预设路径里的 <code>[x1]</code>、<code>[x2]</code> 或任何其他方括号名称都是需要输入的名称：同名只问一次，不同名称分别询问。</li>
+</ul>
+</body>
+</html>

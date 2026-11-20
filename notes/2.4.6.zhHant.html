@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; margin: 12px 16px; }
+  h2 { font-size: 15px; margin: 16px 0 6px; }
+  h3 { font-size: 13px; margin: 14px 0 4px; color: #3b82f6; text-transform: none; }
+  ul { margin: 4px 0 8px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127,127,127,.18); border-radius: 4px; padding: 1px 4px; }
+  a { color: #3b82f6; }
+  .k { font-family: "Apple Symbols", "Helvetica Neue", sans-serif; }
+</style>
+</head>
+<body>
+<h3>新增</h3>
+<ul>
+<li><strong>新增資料夾時可以填寫多個名稱。</strong> 在“新增預設組資料夾”裡，範本現在可以寫任意多個方括號名稱，例如 <code>[?客戶]</code>、<code>[x1]</code>、<code>[項目]</code>。每次建立時，每個名稱只問你一次，填寫的內容會替換所有同名的位置；不同名稱分別詢問。<code>[x]</code> 和 <code>[date]</code> 之類的日期部分不會被詢問。</li>
+<li><strong>真的叫 <code>[x]</code> 的資料夾。</strong> 預設組路徑裡的 <code>[x]</code> 仍然表示“這裡的任意資料夾”。如果有資料夾真的叫 <code>[x]</code>，請加引號寫成 <code>"[x]"</code>。路徑輸入框旁新增了一個按鈕，可在兩種寫法之間切換；“插入會變化的部分”選單裡也多了對應的一項。</li>
+</ul>
+<h3>須知</h3>
+<ul>
+<li>預設組路徑裡的 <code>[x1]</code>、<code>[x2]</code> 或任何其他方括號名稱都是需要輸入的名稱：同名只問一次，不同名稱分別詢問。</li>
+</ul>
+</body>
+</html>
